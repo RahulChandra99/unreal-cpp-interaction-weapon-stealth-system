@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\module.electronicnodes.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\intermediate\\build\\win64\\x64\\combatprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\definitions.electronicnodes.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\electronicnodes.init.gen.cpp",
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\electronicnodessettings.gen.cpp",
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\source\\electronicnodes\\public\\electronicnodessettings.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\unrealeditor\\inc\\electronicnodes\\uht\\electronicnodessettings.generated.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\permoduleinline.gen.cpp",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

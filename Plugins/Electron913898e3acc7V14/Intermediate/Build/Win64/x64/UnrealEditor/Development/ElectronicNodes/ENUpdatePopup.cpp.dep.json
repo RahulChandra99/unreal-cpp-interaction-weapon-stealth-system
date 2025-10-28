@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\source\\electronicnodes\\private\\popup\\enupdatepopup.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\intermediate\\build\\win64\\x64\\combatprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electronicnodes\\definitions.electronicnodes.h",
+            "d:\\gamedevelopment\\unrealengine\\projects\\combatproject\\plugins\\electron913898e3acc7v14\\source\\electronicnodes\\private\\popup\\enupdatepopup.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatehyperlinkrun.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\ilayoutblock.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\irunrenderer.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\islaterun.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\editor\\editorstyle\\public\\editorstyleset.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\text\\srichtextblock.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\itextdecorator.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\textdecorators.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatewidgetrun.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatetextlayoutfactory.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatetextlayout.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\swebbrowser.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\swebbrowserview.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowsersingleton.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowserresourceloader.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\plugindisalloweddescriptor.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "d:\\ue 5\\ue_5.5\\engine\\source\\runtime\\projects\\public\\versescope.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
