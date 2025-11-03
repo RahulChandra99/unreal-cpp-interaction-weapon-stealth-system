@@ -84,5 +84,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=CombatProject
-/fo "D:\GameDevelopment\UnrealEngine\Projects\CombatProject\Plugins\Electron913898e3acc7V14\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
+/fo "D:\GameDevelopment\UnrealEngine\Projects\GithubProjects\unreal-cpp-interaction-weapon-stealth-system\Plugins\Electron913898e3acc7V14\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

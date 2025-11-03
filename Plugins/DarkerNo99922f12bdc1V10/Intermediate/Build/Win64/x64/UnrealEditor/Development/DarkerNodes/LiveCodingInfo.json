@@ -2,9 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.DarkerNodes.cpp.obj": [
-			"BrushDatabase.gen.cpp.obj",
-			"DarkerNodes.init.gen.cpp.obj",
-			"DarkerNodesSettings.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"Colorizer.cpp.obj",
 			"ColorizerFonts.cpp.obj",
@@ -14,7 +11,10 @@
 			"ColorizerUtils.cpp.obj",
 			"DarkerNodes.cpp.obj",
 			"BrushDatabase.cpp.obj",
-			"DNUpdatePopup.cpp.obj"
+			"DNUpdatePopup.cpp.obj",
+			"BrushDatabase.gen.cpp.obj",
+			"DarkerNodes.init.gen.cpp.obj",
+			"DarkerNodesSettings.gen.cpp.obj"
 		]
 	}
 }

@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "NiagaraFunctionLibrary.h"
 #include "NiagaraSystem.h"
+#include "CombatProject/Interface/EnemyInterface.h"
 
 // Sets default values
 AWeapon::AWeapon()
@@ -389,8 +390,10 @@ void AWeapon::HandleFire(bool bADS)
 
     float FinalDamage = BaseDamage;
 
+	
+	
     // --- Enemy detection ---
-    if (Hit.GetActor() && Hit.GetActor()->Implements<UHitInterface>())
+    if (Hit.GetActor() && Hit.GetActor()->Implements<UEnemyInterface>())
     {
 
     	// Now safely use the bone name
@@ -428,17 +431,25 @@ void AWeapon::HandleFire(bool bADS)
     }
     else
     {
+    	
+    	if (Hit.GetActor()->Implements<UHitInterface>())
+    	{
+    		IHitInterface::Execute_GetHit(Hit.GetActor(), Hit.ImpactPoint, GetOwner());
+    		GetHitActor(Hit.GetActor());
+
+    		if (Hit.GetActor()->ActorHasTag("Breakable"))
+    		{
+    			CreateFields(Hit.ImpactPoint);
+    			PhysicalMaterialBasedResponseForGun(Hit.PhysMaterial.Get(), Hit);
+    		}
+    	}
+    	
         // --- Non-enemy surface ---
         if (PhysMat)
         {
             const EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(PhysMat);
             UE_LOG(LogTemp, Warning, TEXT("Hit surface type: %d"), (int32)SurfaceType);
-
-            if (SurfaceType == SurfaceType3)
-            {
-                SpawnBloodIfAny(Hit, GunEnemyHitNiagaraVFX);
-                UE_LOG(LogTemp, Warning, TEXT("Blood spawned on Flesh surface."));
-            }
+        	
         }
     }
 }
